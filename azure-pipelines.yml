@@ -89,4 +89,4 @@ stages:
             inputs:
               azureSubscription: 'serviceconnection_pipelineworkshop'
               appName: '$(WebAppName)'
-              package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
+              package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.sppkg'
